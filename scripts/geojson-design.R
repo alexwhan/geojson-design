@@ -1,4 +1,8 @@
 library(geojsonio)
+library(sp)
+library(dplyr)
+library(purrr)
+library(readr)
 
 poly <- geojsonio::geojson_read("data/polygon.json")
 
